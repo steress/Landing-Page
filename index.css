@@ -13,7 +13,7 @@ body {
 .header {
     padding: 20px 100px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .logo {
@@ -37,6 +37,8 @@ a {
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    flex-wrap:wrap;
+    gap: 30px;
 }
 .text {
     color: #F9FaF8;
@@ -59,7 +61,7 @@ a {
     flex-wrap: wrap;
     gap:10px;
 }
-button {
+.btn1 {
     padding: 8px;
     font-size: 16px;
     color:white;
@@ -74,11 +76,14 @@ button {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-bottom: 30px;
+    
 }
 .box {
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 .text3 {
     text-align: center;
@@ -102,10 +107,11 @@ button {
     padding: 20px;
     gap: 20px;
     background-color: #E5E7EB;
+    
 }
 .right {
-    padding-left: 650px;
-    align-self: center;
+    width: 650px;
+    align-self: flex-end;
     font-weight: 900;
     font-size: 16px;
 }
@@ -114,4 +120,39 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    flex-wrap: wrap;
+}
+.four {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    align-items: center;
+    margin: 100px 330px;
+    padding: 40px 100px;
+    border-radius: 12px;
+}
+
+.text5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.text6 {
+    color: white;
+}
+
+.btn2 {
+    color: white;
+    font-size: 16px;
+    background-color: #3882F6;
+    padding: 6px 30px;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+.footer {
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
